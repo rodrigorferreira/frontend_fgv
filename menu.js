@@ -3,6 +3,7 @@ const vueApp = new Vue({
   
   data: {
     searchTerm: '',
+    status: '',
   },
   methods: {
     // Função para atualizar a exibição com base na pesquisa
