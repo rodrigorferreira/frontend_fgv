@@ -7,16 +7,37 @@
     "description": "Pão, carne, queijo, alface, tomate e maionese."
   },
   {
+    "name": "Picanha Salada Bacon",
+    "category": "Hamburgueres",
+    "price": 25,
+    "image": "./imagens/picanha.png",
+    "description": "Pão, carne de picanha, bacon, queijo, alface, tomate e maionese da casa."
+  },
+  {
     "name": "Hamburguer Vegano",
     "category": "Hamburgueres",
-    "price": 14,
+    "price": 30,
     "image": "./imagens/hamburguer_vegano.jpeg",
     "description": "Pão vegano, hambúrguer de grão de bico, alface, tomate e molho especial."
   },
   {
-    "name": "Batata Frita",
+    "name": "Batata Frita Pequena",
     "category": "Acompanhamentos",
     "price": 8,
+    "image": "./imagens/batata_frita.jpg",
+    "description": "Batatas fritas crocantes e saborosas."
+  },
+  {
+    "name": "Batata Frita Média",
+    "category": "Acompanhamentos",
+    "price": 10,
+    "image": "./imagens/batata_frita.jpg",
+    "description": "Batatas fritas crocantes e saborosas."
+  },
+  {
+    "name": "Batata Frita Grande",
+    "category": "Acompanhamentos",
+    "price": 15,
     "image": "./imagens/batata_frita.jpg",
     "description": "Batatas fritas crocantes e saborosas."
   },
@@ -28,10 +49,24 @@
     "description": "Milkshake cremoso sabor chocolate."
   },
   {
+    "name": "Milkshake de Ovo Maltine",
+    "category": "Bebidas",
+    "price": 15,
+    "image": "./imagens/milkshake_ovomaltine.png",
+    "description": "Milkshake cremoso sabor ovo maltine."
+  },
+  {
     "name": "Coca-Cola lata 350ml",
     "category": "Bebidas",
     "price": 10,
     "image": "./imagens/cocacola.jpg",
-    "description": "Coca-Cola Lata de 250 ml."
+    "description": "Coca-Cola Lata de 350 ml."
+  },
+  {
+    "name": "Guaraná Antartica lata 350ml",
+    "category": "Bebidas",
+    "price": 10,
+    "image": "./imagens/guaranaantartica.jpg",
+    "description": "Guaraná Antartica Lata de 350 ml."
   }
 ]
