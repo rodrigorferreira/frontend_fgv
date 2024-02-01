@@ -1,5 +1,5 @@
 /* Estilos para o layout e aparência */
-/* Customize conforme necessário */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -87,13 +87,6 @@ body {
     /* ... */
     margin-bottom: 20px;
   }
-
-  /* .menuItem img { */
-    /* width: 100%; */
-    /* height: auto; */
-    /* padding: 10px; Adiciona um espaçamento interno de 10px para as imagens */
-    /* box-sizing: border-box; Garante que o padding seja considerado no cálculo do tamanho total */
-  /* } */
 
   .menuItem img {
     max-width: 100%;
