@@ -40,11 +40,11 @@ header {
 .btn-voltar {
   display: inline-block;
   padding: 8px 16px;
+  background-color: #555;
   color: #fff;
   text-decoration: none;
   border: none;
   border-radius: 40px;
-  right: 20px;
 }
 
 h1 {
@@ -54,7 +54,7 @@ h1 {
 input[type="text"] {
   padding: 8px;
   margin: 10px;
-  width: 80%;
+  width: 80%; /* Adicionei uma largura para melhor ajuste */
 }
 
 button {
@@ -70,27 +70,19 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px;
+  padding: 20px; /* Adicionei um espaçamento interno para melhorar a aparência */
 }
 
 .menuItem {
-  width: calc(33.33% - 20px);
+  width: calc(50% - 20px);
   margin-bottom: 20px;
   box-sizing: border-box;
-  border: 2px solid #333;
-  padding: 10px;
-  text-align: center;
 }
 
 .menuItem img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
-}
-
-.menuItem h2 {
-  margin-top: 10px;
-  font-size: 1em; /* Ajuste de tamanho do texto para telas menores */
 }
 
 .price {
@@ -103,7 +95,7 @@ button {
   margin-top: 10px;
   text-align: left;
   font-weight: bold;
-  font-size: 0.9em; /* Ajuste de tamanho do texto para telas menores */
+  font-size: 1.1em;
 }
 
 /* Estilos para telas pequenas */
@@ -115,26 +107,26 @@ button {
   }
 
   .search-bar input[type="text"] {
-      width: 100%;
+      width: 100%; /* Ocupa toda a largura em telas pequenas */
   }
 
   #menuItems {
-      padding: 10px;
+      padding: 10px; /* Reduzindo o espaçamento interno para telas pequenas */
   }
 }
 
 /* Estilos para telas médias */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   body {
-      margin: 0 20px;
-      padding: 0 20px;
+      margin: 0 20px; /* Margens laterais médias para telas médias */
+      padding: 0 20px; /* Padding médio para telas médias */
   }
 }
 
 /* Estilos para telas grandes */
 @media screen and (min-width: 1025px) {
   body {
-      margin: 0 50px;
-      padding: 0 50px;
+      margin: 0 50px; /* Margens laterais maiores para telas grandes */
+      padding: 0 50px; /* Padding maior para telas grandes */
   }
 }

@@ -1,0 +1,140 @@
+/* Estilos para o layout e aparência */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7c7777;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px 0; */
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 15px;
+
+  }
+
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+  .search-bar {
+    background-color: #888686; /* Substitua pelo código da cor neutra desejada */
+    padding: 10px; /* Adiciona um espaçamento interno de 10 pixels ao redor do conteúdo */
+    text-align: center; /* Alinha o conteúdo ao centro */
+  }
+  
+  /* Adiciona um espaçamento externo abaixo de todos os elementos dentro da classe "search-bar" */
+  .search-bar * {
+    margin-bottom: 5px;
+  }
+  
+
+  .btn-voltar {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    /* margin-right: 10px; */
+  }
+  
+  
+  h1 {
+    margin: 0;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+
+  #menuItems {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem na largura */
+    justify-content: space-between; 
+    gap: 20px; /* Espaço entre os itens */
+  }
+
+  .menuItem {
+    width: calc(50% - 10px); /* Define a largura de cada item para ocupar metade do espaço com um espaço de 20px entre eles */
+    /* Outros estilos dos itens */
+    /* ... */
+    margin-bottom: 20px;
+  }
+
+  .menuItem img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .price {
+    font-weight: bold;
+    color: #e44d26;
+  }
+
+  .description {
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+
+  
+
+  /* Estilos para telas pequenas */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Exemplo de ajuste de fonte para telas menores */
+    margin: 0 10px; /* Margens laterais menores para telas menores */
+    padding: 0 10px; /* Padding menor para telas menores */
+  }
+  /* Outros ajustes para telas pequenas */
+}
+
+/* Estilos para telas médias */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    margin: 0 50px; /* Margens laterais médias para telas médias */
+    padding: 0 50px; /* Padding médio para telas médias */
+  }
+  /* Outros ajustes para telas médias */
+}
+
+/* Estilos para telas grandes */
+@media screen and (min-width: 1025px) {
+  body {
+    margin: 0 100px; /* Margens laterais maiores para telas grandes */
+    padding: 0 100px; /* Padding maior para telas grandes */
+  }
+  /* Outros ajustes para telas grandes */
+}
