@@ -95,15 +95,23 @@ button {
 
 .price {
   font-weight: bold;
-  color: #e44d26;
+  color: #09ee6c;
+}
+
+.category {
+  font-style: italic;
+  font-size: 0.9em;
+  color: black;
+  margin-top: 5px;
+  font-size: 1.2em; /* Ajuste de tamanho do texto para telas menores */
 }
 
 .description {
   display: none;
-  margin-top: 10px;
-  text-align: left;
+  margin-top: 15px;
+  text-align: center;
   font-weight: bold;
-  font-size: 0.9em; /* Ajuste de tamanho do texto para telas menores */
+  font-size: 1.5em; /* Ajuste de tamanho do texto para telas menores */
 }
 
 /* Estilos para telas pequenas */
