@@ -114,6 +114,8 @@ button {
   font-size: 1.5em; /* Ajuste de tamanho do texto para telas menores */
 }
 
+
+
 /* Estilos para telas pequenas */
 @media screen and (max-width: 600px) {
   body {

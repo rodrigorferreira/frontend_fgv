@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>MyBurguer</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="topo">
+          <p class="logo">MyBurguer</p>
+    
+          <p id="horarioFuncionamento">
+            <img src="" class="relogio-icon">
+            Horário de Funcionamento
+          </p>
+          
+    
+          <div>
+            <p>
+              <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Ícone do WhatsApp" class="whatsapp-icon">
+            </p>
+          </div>
+        
+        </div>
+        
+      </header>
+
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Buscar por produto ou categoria">
+      
+      <button onclick="search()">Buscar</button>
+
+      <a href="index.html" class="btn-voltar">Voltar</a>
+  </div>
+<br><br>
+      
+      
+        <h1>CARDÁPIO</h1>
+      
+      <main id="menuItems">
+        <!-- Aqui serão listados os produtos -->
+      </main>
+      
+      <script src="menu.js"></script>
+
+</body>
+</html>
