@@ -7,52 +7,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
-
 </head>
+
 <body>
 
-  <header>
-    <div class="topo">
-      <p class="logo">MyBurguer</p>
+<header>
+  <div class="topo">
+    <p class="logo">MyBurguer</p>
 
-      <p id="horarioFuncionamento">
-        <img src="" class="relogio-icon">
-        Horário de Funcionamento
+    <p id="horarioFuncionamento">
+      <img src="" class="relogio-icon">
+      Horário de Funcionamento
+    </p>
+
+    <div>
+      <p>
+        <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Ícone do WhatsApp" class="whatsapp-icon">
       </p>
-      
-
-      <div>
-        <p>
-          <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Ícone do WhatsApp" class="whatsapp-icon">
-        </p>
-      </div>
-
-      <!-- <div>
-        <p>Redes Sociais</p>
-      </div> -->
-    
     </div>
-    
-  </header>
-
-  <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Buscar por produto ou categoria">
-  
-  <button onclick="search()">Buscar</button>
-
-  <!-- Vue.js para lidar com o clique do botão
-  <button @click="Search">Buscar</button> -->
-  
-  <a href="index.html" class="btn-voltar">Voltar</a>
   </div>
+</header>
 
-  <main id="menuItems">
-    <!-- Aqui serão listados os produtos -->
-  </main>
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Buscar por produto ou categoria">
+  <button id="searchButton">Buscar</button>
+  <a href="index.html" class="btn-voltar">Voltar</a>
+</div>
 
-  <script src="menu.js"></script>
-  
-  
+
+<main id="menuItems">
+  <!-- Aqui serão listados os produtos -->
+  <div v-for="item in filteredItems" class="menuItem">
+    <h2>{{ item.name }}</h2>
+    <img :src="'./imagens/' + item.image" :alt="item.name" @click="showDescription(item)">
+    <p class="price">Preço: R$ {{ item.price.toFixed(2) }}</p>
+    <p class="category">Categoria: {{ item.category }}</p>
+    <p class="description">{{ item.description }}</p>
+  </div>
+</main>
+
+
+<div class="product-preview" v-show="isPreviewVisible">
+  <div class="preview-content">
+    <span class="close-preview" @click="closePreview">&times;</span>
+    <h2 class="preview-name">{{ selectedItem.name }}</h2>
+    <img class="preview-image" :src="selectedItem.image" :alt="selectedItem.name">
+    <p class="preview-price">Preço: R$ {{ selectedItem.price.toFixed(2) }}</p>
+    <p class="preview-category">Categoria: {{ selectedItem.category }}</p>
+    <p class="preview-description">{{ selectedItem.description }}</p>
+
+
+  </div>
+</div>
+
+<script src="menu.js"></script>
   
 </body>
 </html>
