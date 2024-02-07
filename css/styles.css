@@ -114,6 +114,38 @@ button {
   font-size: 1.5em; /* Ajuste de tamanho do texto para telas menores */
 }
 
+.product-preview {
+  display: none;
+  position: fixed; /* Define a posição fixa para que o popup permaneça na mesma posição mesmo ao rolar a página */
+  top: 50%; /* Ajusta a posição vertical para o centro */
+  left: 50%; /* Ajusta a posição horizontal para o centro */
+  transform: translate(-50%, -50%); /* Centraliza o popup horizontalmente e verticalmente */
+  background-color: #7c7777;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 999; /* Garante que o popup esteja sempre acima de outros elementos */
+  max-width: 80%; /* Define a largura máxima do popup */
+  max-height: 80%; /* Define a altura máxima do popup */
+  overflow: auto; /* Adiciona barras de rolagem caso o conteúdo do popup seja maior que o tamanho máximo */
+}
+
+.product-preview .preview-content {
+  position: relative;
+}
+
+.product-preview .close-preview {
+  position: absolute;
+  top: -30px; /* Move o botão 20px acima do topo da .preview-content */
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.product-preview .preview-image {
+  max-width: 100%;
+}
+
+
 
 
 /* Estilos para telas pequenas */
