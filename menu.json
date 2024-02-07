@@ -2,8 +2,8 @@
   {
     "name": "Hamburguer Clássico",
     "category": "Hamburgueres",
-    "price": 15,
-    "image": "./imagens/hamburguer_classico.jpg",
+    "price": 15.90,
+    "image": "./imagens/burguer_classico.png",
     "description": "Pão, carne, queijo, alface, tomate e maionese."
   },
   {
@@ -14,59 +14,59 @@
     "description": "Pão, carne de picanha, bacon, queijo, alface, tomate e maionese da casa."
   },
   {
-    "name": "Hamburguer Vegano",
+    "name": "Top X-Burgão",
     "category": "Hamburgueres",
-    "price": 30,
-    "image": "./imagens/hamburguer_vegano.jpeg",
-    "description": "Pão vegano, hambúrguer de grão de bico, alface, tomate e molho especial."
+    "price": 30.90,
+    "image": "./imagens/top_burgao.png",
+    "description": "Pão, carne de boi, ovo, bacon, queijo, alface, tomate e molho especial."
   },
   {
-    "name": "Batata Frita Pequena",
-    "category": "Acompanhamentos",
+    "name": "Promoção de Hambúrguer",
+    "category": "Hamburgueres",
+    "price": 40.10,
+    "image": "./imagens/kit-burguer.png",
+    "description": "Hamburguer, Batata Frita, Refrigerante 350ml."
+  },
+  {
+    "name": "Batata Frita",
+    "category": "Batatas",
     "price": 8,
-    "image": "./imagens/batata_frita.jpg",
+    "image": "./imagens/batata__frita.png",
     "description": "Batatas fritas crocantes e saborosas."
   },
   {
-    "name": "Batata Frita Média",
-    "category": "Acompanhamentos",
-    "price": 10,
-    "image": "./imagens/batata_frita.jpg",
-    "description": "Batatas fritas crocantes e saborosas."
+    "name": "Porção de batata frita",
+    "category": "Batatas",
+    "price": 25.50,
+    "image": "./imagens/porcao_batata.png",
+    "description": "Porção de 300g de Batatas fritas com bacon e Cheddar  ."
   },
   {
-    "name": "Batata Frita Grande",
-    "category": "Acompanhamentos",
-    "price": 15,
-    "image": "./imagens/batata_frita.jpg",
-    "description": "Batatas fritas crocantes e saborosas."
-  },
-  {
-    "name": "Milkshake de Chocolate",
-    "category": "Bebidas",
-    "price": 12,
-    "image": "./imagens/milkshake_chocolate.jpg",
-    "description": "Milkshake cremoso sabor chocolate."
-  },
-  {
-    "name": "Milkshake de Ovo Maltine",
+    "name": "Milkshake Sabores",
     "category": "Bebidas",
     "price": 15,
-    "image": "./imagens/milkshake_ovomaltine.png",
-    "description": "Milkshake cremoso sabor ovo maltine."
+    "image": "./imagens/milkshakes.png",
+    "description": "Milkshake cremosos vários sabores."
   },
   {
     "name": "Coca-Cola lata 350ml",
     "category": "Bebidas",
     "price": 10,
-    "image": "./imagens/cocacola.jpg",
+    "image": "./imagens/cocacola.png",
     "description": "Coca-Cola Lata de 350 ml."
+  },
+  {
+    "name": "Fanta Laranja 350ml",
+    "category": "Bebidas",
+    "price": 10,
+    "image": "./imagens/fantalaranja.png",
+    "description": "Milkshake cremoso sabor chocolate."
   },
   {
     "name": "Guaraná Antartica lata 350ml",
     "category": "Bebidas",
     "price": 10,
-    "image": "./imagens/guaranaantartica.jpg",
+    "image": "./imagens/guaranaantartica.png",
     "description": "Guaraná Antartica Lata de 350 ml."
   }
 ]
